@@ -8,8 +8,8 @@ namespace MatheCSharp
     {
 
         /**
- * The actual function
- */
+         * The actual function
+        */
         internal string expression = "";
 
         /**
