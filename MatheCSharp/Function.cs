@@ -167,11 +167,11 @@ namespace MatheCSharp
 
 
             if (function is ExponentialFunction)
-			return (ExponentialFunction)f;
-		else if (function is LinearFunction)
-			return (LinearFunction)f;
-		else 
-			return f;
+			    return (ExponentialFunction)f;
+		    else if (function is LinearFunction)
+			    return (LinearFunction)f;
+		    else 
+			    return f;
         }
 
 
@@ -184,11 +184,11 @@ namespace MatheCSharp
             Function g = MirrorY(f);
 
             if (function is ExponentialFunction)
-			return (ExponentialFunction)g;
-		else if (function is LinearFunction)
-			return (LinearFunction)g;
-		else 
-			return g;
+			    return (ExponentialFunction)g;
+		    else if (function is LinearFunction)
+			    return (LinearFunction)g;
+		    else 
+			    return g;
         }
 
 
